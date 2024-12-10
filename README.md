@@ -34,9 +34,9 @@ inspect view
 
 Currently, the following tasks are implemented:
 
-- [musique](reasoning_bench/tasks/musique/musique.py)
-- [hotpot_qa](reasoning_bench/tasks/hotpot_qa/hotpot_qa.py)
-- [procbench](reasoning_bench/tasks/procbench/procbench.py)
+- [MuSiQue](reasoning_bench/tasks/musique/README.md)
+- [HotPotQA](reasoning_bench/tasks/hotpot_qa/README.md)
+- [ProcBench](reasoning_bench/tasks/procbench/README.md)
 
 Additional tasks can be added by pattern-matching the existing implementations.
 PRs are welcome!
