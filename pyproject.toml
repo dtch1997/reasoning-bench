@@ -1,0 +1,19 @@
+[project]
+name = "reasoning-bench"
+version = "0.1.0"
+description = "A collection of reasoning evals, implemented using the Inspect framework"
+authors = [
+    {name = "Daniel Tan", email = "dtch1997@users.noreply.github.com"},
+]
+dependencies = ["inspect-ai>=0.3.49", "openai>=1.57.2", "datasets>=3.2.0"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
